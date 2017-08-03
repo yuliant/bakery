@@ -1,0 +1,87 @@
+body{
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+#promo{
+  text-align:center;
+  padding:40px;
+  background:url(../../assets/img/background.jpg) no-repeat;
+  background-size:cover;
+  margin-top:65px;
+}
+
+#logo{
+  max-height:42px;
+  margin-right:10px;
+  margin-top:-3px;
+  display:inline-block;
+}
+
+@media (max-width:1199px) {
+  #promo{
+    padding:20px;
+  }
+}
+
+#promo .jumbotron{
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width:1199px) {
+  #promo .jumbotron{
+    padding:20px;
+  }
+}
+
+.dark-section{
+  background-color:#d6c5c5;
+}
+
+.site-section{
+  text-align:center;
+  padding-bottom:70px;
+}
+
+.site-selection h1{
+  font-weight:normal;
+  margin-bottom:30px;
+}
+
+#welcome p{
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+}
+
+#why .item{
+  margin-top:36px;
+}
+
+i.fa.fa-birthday-cake{
+  font-size:82px;
+  color:rgb(128,0,128);
+}
+
+#why . item h2{
+  font-weight:normal;
+}
+
+i.fa.fa-heart{
+  font-size:82px;
+  color:purple;
+}
+
+i.fa.fa-shopping-basket{
+  font-size:82px;
+  color:purple;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+  background-color:rgb(251,251,121);
+  border-color:transparent;
+}
+
